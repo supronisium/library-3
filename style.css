@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Forum:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400@800&display=swap");
+/* переменные шрифтов */
+/* переменные цветов */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  transition-duration: 0.5s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font: 400 20px Inter;
+  background-color: #FFFFFF;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font: 44px/1.3 Forum;
+  color: #0C0C0E;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font: 400 normal 44px/1.3 Forum;
+  color: #0C0C0E;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  padding: 0 40px;
+}
+
+/* block Header */
+.header {
+  background: #000000;
+}
+
+.header__top {
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.header__top .header__logo {
+  flex-grow: 1;
+}
+
+.logo__title h1 {
+  color: #FFFFFF;
+  font-family: Forum;
+  font-size: 30px;
+  line-height: 50px;
+  letter-spacing: 0.6px;
+}
+
+.header ul nav {
+  display: flex;
+}
+
+.header__menu nav ul {
+  display: flex;
+  gap: 11px;
+}
+
+.header__menu nav ul a {
+  font: 15px Inter;
+  color: #FFFFFF;
+  display: block;
+}
+
+.header__menu nav ul a:hover {
+  color: #FFFFFF;
+}
+
+.header__menu nav ul li {
+  list-style-type: none;
+  margin-left: 24px;
+  padding-top: 2px;
+}
+
+.header__slogan {
+  color: #FFF;
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 125% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/* block About */
+section.about {
+  padding: 80px 175px 98px 175px;
+}
+
+.about__block {
+  padding: 0 80px;
+}
+
+.about__block p {
+  padding: 10px 0 15px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
